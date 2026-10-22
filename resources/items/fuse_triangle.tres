@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BunkerItem" format=3 uid="uid://c0qclrko1a5v3"]
+
+[ext_resource type="Script" uid="uid://c8xkqi18bbsx8" path="res://scripts/inventory/item_definition.gd" id="1_2xj74"]
+
+[resource]
+script = ExtResource("1_2xj74")
+id = &"fuse_triangle"
+display_name = "Triangle fuse"
+description = "A threaded ceramic fuse marked with a triangle. Its outline has three corners."
+symbol = "△"
+color = Color(0.79, 0.73, 0.5, 1)

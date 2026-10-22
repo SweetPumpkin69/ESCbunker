@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/paint_albedo.png" id="1_3cb06"]
+[ext_resource type="Texture2D" path="res://textures/paint_normal.png" id="2_lvhd1"]
+
+[resource]
+resource_name = "Paint"
+albedo_texture = ExtResource("1_3cb06")
+metallic = 0.55
+roughness = 0.76
+normal_enabled = true
+normal_scale = 0.22
+normal_texture = ExtResource("2_lvhd1")
+uv1_scale = Vector3(1.2, 1.2, 1.2)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.0

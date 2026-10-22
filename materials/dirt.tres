@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/dirt_albedo.png" id="1_xp3nn"]
+[ext_resource type="Texture2D" path="res://textures/dirt_normal.png" id="2_by8an"]
+
+[resource]
+resource_name = "Dirt"
+albedo_texture = ExtResource("1_xp3nn")
+roughness = 0.93
+normal_enabled = true
+normal_scale = 0.22
+normal_texture = ExtResource("2_by8an")
+uv1_scale = Vector3(0.9, 0.9, 0.9)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.0

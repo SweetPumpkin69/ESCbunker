@@ -1,0 +1,59 @@
+PASS interact is mapped to physical F
+PASS Initial generator state
+PASS Physical Tab input opens inventory and locks movement
+PASS Escape input closes inventory and restores movement
+PASS Cylindrical shaft removed from playable scene
+PASS Editable jagged breach cutter present
+PASS Old preview overlay disabled
+PASS Only breach moonlight illuminates the initial room
+PASS Jagged breach is a real open ceiling cut
+PASS Camera ray finds door panel
+PASS Dead panel feedback
+PASS Generator missing-components feedback
+PASS Engine cannot start before fuses and fuel
+PASS Door cannot be bypassed with a direct open call
+PASS Camera ray reaches Search west storage rack
+PASS Camera ray reaches Search north storage rack
+PASS Camera ray reaches Search east storage rack
+PASS Camera ray reaches Search timber crate
+PASS F searches collect four distinct fuses
+PASS Searching again cannot duplicate loot
+PASS Wrong-location USE feedback
+PASS Wrong-location USE does not consume item
+PASS Clicking inventory item reveals USE
+PASS Star decoy rejected without consumption
+PASS USE also accepts standing in correct UseArea while looking away
+PASS Cancel returns reserved fuse
+PASS Cancel restores slot and player
+PASS USE starts screw interaction for fuse_square
+PASS Movement locked during installation
+PASS Camera focuses on slot 4
+PASS Horizontal mouse rotation advances screw
+PASS Reverse movement loosens screw
+PASS Completed fuse consumed exactly once: fuse_square
+PASS Controls restored after installation
+PASS One fuse cannot power generator
+PASS USE starts screw interaction for fuse_triangle
+PASS Movement locked during installation
+PASS Camera focuses on slot 3
+PASS Horizontal mouse rotation advances screw
+PASS Reverse movement loosens screw
+PASS Completed fuse consumed exactly once: fuse_triangle
+PASS Controls restored after installation
+PASS Both fuses transition to powered/no fuel
+PASS Yellow indicator after both fuses
+PASS Exact fuel feedback
+PASS Clue popup uses existing JPEG
+PASS Fuel valve opens 3-digit UI
+PASS Wrong code keeps fuel locked
+PASS 532 unlocks and drops padlock
+PASS System ready/green state
+PASS Exact system-ready feedback
+PASS Fuel unlock does not auto-start engine
+PASS F on start control runs looping engine audio
+PASS Generator restores room and corridor lighting
+PASS Powered exit panel starts opening
+PASS Door finishes slow opening
+PASS Open door clears physical passage into corridor
+PASS Only correct fuses consumed; decoys remain
+Failures: 0

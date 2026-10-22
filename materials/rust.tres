@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/rust_albedo.png" id="1_3pdj7"]
+[ext_resource type="Texture2D" path="res://textures/rust_normal.png" id="2_npbxo"]
+
+[resource]
+resource_name = "Rust"
+albedo_texture = ExtResource("1_3pdj7")
+metallic = 0.5
+roughness = 0.76
+normal_enabled = true
+normal_scale = 0.22
+normal_texture = ExtResource("2_npbxo")
+uv1_scale = Vector3(1.6, 1.6, 1.6)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.0

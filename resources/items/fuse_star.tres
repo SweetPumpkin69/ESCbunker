@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BunkerItem" format=3 uid="uid://ch2gibopees3k"]
+
+[ext_resource type="Script" uid="uid://c8xkqi18bbsx8" path="res://scripts/inventory/item_definition.gd" id="1_10j05"]
+
+[resource]
+script = ExtResource("1_10j05")
+id = &"fuse_star"
+display_name = "Star fuse"
+description = "A threaded fuse marked with a star. It may belong to another circuit."
+symbol = "☆"
+color = Color(0.64, 0.69, 0.86, 1)

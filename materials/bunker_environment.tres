@@ -1,0 +1,25 @@
+[gd_resource type="Environment" format=3]
+
+[resource]
+resource_name = "Bunker - no ambient light - breach illumination only"
+background_mode = 1
+background_color = Color(0.016, 0.023, 0.028, 1)
+background_energy_multiplier = 0.0
+ambient_light_source = 1
+tonemap_mode = 2
+tonemap_exposure = 1.12
+ssao_enabled = true
+ssao_radius = 0.7
+ssao_intensity = 1.7
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_read_sky_light = false
+sdfgi_min_cell_size = 0.15
+sdfgi_energy = 1.7
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.006
+volumetric_fog_albedo = Color(0.66, 0.72, 0.75, 1)
+volumetric_fog_emission_energy = 0.0
+volumetric_fog_gi_inject = 0.35
+volumetric_fog_anisotropy = 0.4
+volumetric_fog_length = 24.0

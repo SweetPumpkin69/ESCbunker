@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BunkerItem" format=3 uid="uid://bttofmj4r8yly"]
+
+[ext_resource type="Script" uid="uid://c8xkqi18bbsx8" path="res://scripts/inventory/item_definition.gd" id="1_dpnoe"]
+
+[resource]
+script = ExtResource("1_dpnoe")
+id = &"fuse_square"
+display_name = "Square fuse"
+description = "A threaded ceramic fuse marked with a square. Its outline has four corners."
+symbol = "□"
+color = Color(0.69, 0.8, 0.68, 1)

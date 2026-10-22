@@ -1,0 +1,45 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/preview_player.gd" id="1_rwd2g"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1b3dw"]
+radius = 0.25
+height = 1.8
+
+[node name="PreviewPlayer" type="CharacterBody3D" unique_id=1302702192]
+script = ExtResource("1_rwd2g")
+
+[node name="BodyCollider" type="CollisionShape3D" parent="." unique_id=132138559]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_1b3dw")
+
+[node name="Eyes" type="Camera3D" parent="." unique_id=664494608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.66, 0)
+current = true
+fov = 78.0
+near = 0.06
+
+[node name="PreviewOverlay" type="CanvasLayer" parent="." unique_id=1097043832]
+
+[node name="Location" type="Label" parent="PreviewOverlay" unique_id=2029125898]
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 34.0
+offset_bottom = 27.0
+theme_override_colors/font_color = Color(0.72, 0.78, 0.78, 0.65)
+theme_override_constants/line_spacing = 8
+theme_override_font_sizes/font_size = 16
+text = "B R E A C H
+MAINTENANCE  /  LOWER LEVEL"
+
+[node name="Controls" type="Label" parent="PreviewOverlay" unique_id=117088969]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 34.0
+offset_top = -45.0
+offset_right = 35.0
+offset_bottom = -22.0
+theme_override_colors/font_color = Color(0.63, 0.69, 0.7, 0.7)
+theme_override_font_sizes/font_size = 13
+text = "CLICK TO LOOK    ·    WASD MOVE    ·    ESC RELEASE    ·    H HIDE UI"
